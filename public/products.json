@@ -1,0 +1,111 @@
+[
+  {
+    "id": "1",
+    "category": "Men's Sneaker",
+    "name": "Smart Watch",
+    "seller": "Addidas",
+    "price": 420,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "name": "T22 Watch",
+    "seller": "Addidas",
+    "price": 196,
+    "stock": 19,
+    "ratings": 5,
+    "ratingsCount": 4355,
+    "img": "https://img.freepik.com/free-psd/realistic-smart-watch-mockup_165789-534.jpg",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "name": "Premium H6 Watch",
+    "seller": "Addidas",
+    "price": 245,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3972,
+    "img": "https://img.freepik.com/free-photo/elegant-watch-with-silver-golden-chain-isolated_181624-27080.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "Xiaomi Watch",
+    "seller": "Addidas",
+    "price": 229,
+    "stock": 10,
+    "ratings": 5,
+    "ratingsCount": 1764,
+    "img": "https://img.freepik.com/free-psd/smartwatch-mockup_125540-1277.jpg",
+    "shipping": 32,
+    "quantity": 0
+  },
+  {
+    "id": "5",
+    "name": "Capple Watch",
+    "seller": "Addidas",
+    "price": 287,
+    "stock": 11,
+    "ratings": 4,
+    "ratingsCount": 799,
+    "img": "https://img.freepik.com/free-psd/presentation-smartwatch-with-screen-mock-up_23-2148787546.jpg",
+    "shipping": 49,
+    "quantity": 0
+  },
+  {
+    "id": "6",
+    "name": "Men's Watch",
+    "seller": "Addidas",
+    "price": 138,
+    "stock": 19,
+    "ratings": 3,
+    "ratingsCount": 4372,
+    "img": "https://img.freepik.com/free-vector/white-smartwatch-background_1412-32.jpg",
+    "shipping": 19,
+    "quantity": 0
+  },
+  {
+    "id": "7",
+    "name": "H2 Digital Watch",
+    "seller": "Addidas",
+    "price": 226,
+    "stock": 1,
+    "ratings": 4,
+    "ratingsCount": 2870,
+    "img": "https://img.freepik.com/free-vector/watch_53876-35132.jpg",
+    "shipping": 15,
+    "quantity": 0
+  },
+  {
+    "id": "8",
+    "name": "Samsumng Watch",
+    "seller": "Addidas",
+    "price": 319,
+    "stock": 7,
+    "ratings": 4,
+    "ratingsCount": 1360,
+    "img": "https://img.freepik.com/free-vector/realistic-smart-watch_1284-10933.jpg",
+    "shipping": 50,
+    "quantity": 0
+  },
+  {
+    "id": "9",
+    "name": "V6 pro Watch",
+    "seller": "Addidas",
+    "price": 260,
+    "stock": 4,
+    "ratings": 5,
+    "ratingsCount": 1976,
+    "img": "https://img.freepik.com/free-photo/luxury-watch-isolated-white-background-with-clipping-path-gold-watch-women-watch-female-watch_209729-2750.jpg",
+    "shipping": 46,
+    "quantity": 0
+  }
+]

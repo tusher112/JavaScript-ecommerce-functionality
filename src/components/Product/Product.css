@@ -1,0 +1,36 @@
+.product img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.product{
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 20px;
+    position: relative;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+.cart-btn{
+    border: none;
+    background-color: skyblue;
+    bottom: 0px;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left:-10px ;
+    position: absolute;
+    color: white;
+}
+
+.cart-btn:hover{background-color: blue;}
+
+.product-description{
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
