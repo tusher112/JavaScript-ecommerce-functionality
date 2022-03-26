@@ -11,3 +11,11 @@
 
 }
 
+.cart-container{
+    background-color: white;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    position: sticky;
+    border-radius: 10px;
+}
