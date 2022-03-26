@@ -3,20 +3,25 @@ import "./Cart.css"
 
 const Cart = ({ cart }) => {
     let productIncart = [];
+
+
     for (const product of cart) {
-        <br/>
-        productIncart=productIncart + product.name;
         <br />
+        productIncart = productIncart + product.name;
+
+
     }
-    console.log(cart)
+
     return (
         <div className='cart'>
             <h3 className='text-info'>Shopping Cart</h3>
             <p>selected item {cart.length}</p>
             {
-                cart.map((item)=>(
-                    <h6 key={item.id}><img className='cart-item-img' src={item.img} alt="item" />  {item.name}</h6>
+                cart.map((item) => (
+                    <h6 key={item.id}><img className='cart-item-img' src={item.img} alt="item" />  {item.name} </h6>
                 ))
+
+
             }
 
             <div className='btn'>
