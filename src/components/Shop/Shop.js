@@ -21,7 +21,7 @@ const Shop = () => {
     }
     return (
 
-        <div>
+        <div >
             <h1 className='text-danger text-center mt-5'>Magic Shop! </h1>
             <h3 className='text-center bg-info'> Add to Cart 4 watch we will select perfect match for you</h3>
             <div className='shop-container'>
@@ -47,6 +47,7 @@ const Shop = () => {
                     <div className='cart-2'>
 
                     </div>
+
                 </div>
 
 
