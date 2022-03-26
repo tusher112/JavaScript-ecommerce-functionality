@@ -19,9 +19,29 @@
     border-radius: 10px;
     border: 1px solid black;
     display: grid;
-    grid-template-rows:repeat(2,1fr) ;
+    /* grid-template-rows:repeat(2,1fr) ; */
     height: 50%;
     position: sticky;
     top: 0;
 
 }
+
+@media screen and (max-width: 992px) {
+
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        
+    }
+    .product-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cart-container{
+
+    }
+
+    
+  }
