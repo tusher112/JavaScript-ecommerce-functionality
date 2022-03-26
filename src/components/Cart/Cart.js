@@ -11,15 +11,18 @@ const Cart = ({ cart }) => {
     console.log(cart)
     return (
         <div className='cart'>
-            <h1>Result</h1>
+            <h3 className='text-info'>Shopping Cart</h3>
             <p>selected item {cart.length}</p>
             {
                 cart.map((item)=>(
-                    <h5>{item.name}</h5>
+                    <h6 key={item.id}><img className='cart-item-img' src={item.img} alt="item" />  {item.name}</h6>
                 ))
             }
 
-            {/* <p className='item-name'>item: {productIncart} <br /> </p> */}
+            <div className='btn'>
+                <button className='choose-lucky-btn'>CHOOSE LUCKY 1</button>
+                <button className='choose-again-btn'>CHOOSE AGAIN</button>
+            </div>
         </div>
     );
 };

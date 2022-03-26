@@ -22,10 +22,12 @@ const Shop = () => {
     return (
 
         <div>
-            <h1 className='text-warning text-center mt-5'>Magic Shop! <br /> Add to Cart 4 watch we will select perfect match for you.  </h1>
+            <h1 className='text-danger text-center mt-5'>Magic Shop! </h1>
+            <h3 className='text-center bg-info'> Add to Cart 4 watch we will select perfect match for you</h3>
             <div className='shop-container'>
 
                 <div className='product-container'>
+
 
                     {
                         products.map(product => <Product
@@ -35,10 +37,18 @@ const Shop = () => {
 
                         ></Product>)
                     }
+
                 </div>
                 <div className='cart-container '>
-                    <Cart cart={cart}></Cart>
+
+                    <div className='cart-1'>
+                        <Cart cart={cart}></Cart>
+                    </div>
+                    <div className='cart-2'>
+
+                    </div>
                 </div>
+
 
             </div>
         </div>

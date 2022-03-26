@@ -12,10 +12,16 @@
 }
 
 .cart-container{
-    background-color: white;
-    display: block;
+    background-color:lightblue;
     margin: 10px;
     padding: 5px;
-    position: sticky;
+    
     border-radius: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows:repeat(2,1fr) ;
+    height: 100%;
+    position: sticky;
+    top: 0;
+
 }
