@@ -1,31 +1,36 @@
 import React from 'react';
 import "./Cart.css"
 
-const Cart = ({ cart }) => {
-    let productIncart = [];
-
-
-    for (const product of cart) {
-        <br />
-        productIncart = productIncart + product.name;
-
-
+const Cart = (props) => {
+    const {cart}=props;
+    const test= (min,max)=>{
+        return Math.floor(Math.random()*(max-min+1))+min;
     }
+    const chooselucky=()=>{
+        let index=test(0,cart.length-1);
+
+        const tem=cart[index];
+        alert("YOur Lucky Item is this one : "+tem.name);
+        return tem;
+    }
+
+
 
     return (
         <div className='cart'>
             <h3 className='text-info'>Shopping Cart</h3>
             <p>selected item {cart.length}</p>
+            
             {
-                cart.map((item) => (
-                    <h6 key={item.id}><img className='cart-item-img' src={item.img} alt="item" />  {item.name} </h6>
+                cart.map((item,index) => (
+                    <h6 key={index}><img className='cart-item-img' src={item.img} alt="item" />  {item.name} {}</h6>
                 ))
 
 
             }
 
             <div className='btn'>
-                <button className='choose-lucky-btn'>CHOOSE LUCKY 1</button>
+                <button onClick={chooselucky}  className='choose-lucky-btn'>CHOOSE LUCKY 1</button>
                 <button className='choose-again-btn'>CHOOSE AGAIN</button>
             </div>
         </div>
