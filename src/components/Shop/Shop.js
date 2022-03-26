@@ -4,6 +4,8 @@ import "./Shop.css"
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
+
 
     useEffect(() => {
         fetch('products.json')
@@ -11,10 +13,13 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
+    const handleCart = (product) => {
+        console.log('clicked')
+    }
     return (
 
         <div>
-            <h1 className='text-warning text-center mt-5'>Magic Shop! <br/> Add to Cart 4 watch we will select perfect match for you.  </h1>
+            <h1 className='text-warning text-center mt-5'>Magic Shop! <br /> Add to Cart 4 watch we will select perfect match for you.  </h1>
             <div className='shop-container'>
 
                 <div className='product-container'>
@@ -23,6 +28,7 @@ const Shop = () => {
                         products.map(product => <Product
                             key={product.id}
                             product={product}
+                            handleCart={handleCart}
 
                         ></Product>)
                     }
